@@ -9,10 +9,9 @@ const Temperatura = ({temperatura}) => {
     }
 
     function kelvin(k){
-        let result = { fahrenheit : celsiusParaFahrenheit((k-273.15)) ,
+        return { fahrenheit : celsiusParaFahrenheit((k-273.15)) ,
             celsius : k-273.15
         }
-        return result;
     }
 
     return (
