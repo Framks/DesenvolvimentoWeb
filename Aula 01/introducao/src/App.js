@@ -1,5 +1,7 @@
-import SistemaSolar from "./components/04Children/SistemaSolar";
-import Planeta from "./components/04Children/Planeta";
+//import SistemaSolar from "./components/04Children/SistemaSolar";
+//import Planeta from "./components/04Children/Planeta";
+//import ComPai from "./components/05ComPaiFilho/ComPai";
+import Estado from "./components/06Estados/Estado";
 //import {MeusDados as MD, MeusDadosv1 as Md1, MeusDadosv2} from "./components/atividade00/01MeusDados";
 //import MeusDados2 from "./components/atividade00/02MeusDados";
 //import Temperatura from "./components/atividade00/03Temperatua";
@@ -16,13 +18,7 @@ import Planeta from "./components/04Children/Planeta";
     <h2>Atividade 3</h2>
     <Temperatura temperatura={80}/>
  * 
- */
 
-function App() {
-  return (
-    <div className="App">
-    <h1>Atividade 00 de desenvolvimento WEB</h1>
-    <hr/>
     <SistemaSolar galaxia={"via lactia"}>
     	<Planeta nome="mercúrio" tipo={"Rochoso"} ordem={1}/>
    		<hr/>
@@ -32,8 +28,17 @@ function App() {
         <hr/>
         <Planeta nome="Marte" tipo={"Rochoso"} ordem={4}/>
     </SistemaSolar>
+
+ */
+
+function App() {
+  return (
+    <div className="App">
+    	<h1>Atividade 00 de desenvolvimento WEB</h1>
+    	<hr/>
+    	<Estado/>
     </div>
-  );
+  )
 }
 
 export default App;
