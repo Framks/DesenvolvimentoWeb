@@ -1,12 +1,12 @@
 //import Planeta from "./Planeta";
-import React from "react";
+import {React , Children} from "react";
 
 const SistemaSolar = ({children,galaxia}) => {
     return(
         <div>
             <h2>Sistema Solar</h2>
             <hr/>
-            {children.map(
+            {Children.map(
                 children,
                 (x) => {
                     return React.cloneElemente(x,{galaxia})
