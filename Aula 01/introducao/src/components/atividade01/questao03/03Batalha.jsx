@@ -1,18 +1,18 @@
 import { Children, cloneElement } from "react"
 
-const Hero = ({name, img}) => {
+const Hero = ({name, img, arena}) => {
     return(
         <>
-            <h3>Nome: {name}</h3>
+            <h3>Nome: {name}, Arena: {arena}</h3>
             <img width={200} src={img}/>
         </>
     )
 }
 
-const Enemy = ({name, img}) =>{
+const Enemy = ({name, img,arena}) =>{
     return(
         <>
-            <h3>Nome: {name}</h3>
+            <h3>Nome: {name}, Arena: {arena}</h3>
             <img width={200} src={img}/>
         </>
     )
@@ -21,9 +21,8 @@ const Enemy = ({name, img}) =>{
 const Arena = ({children, name}) =>{
     return (
         <>
-            <h2> Arena: {name}</h2>
             {
-                Children.map(children, (x) => cloneElement(x, arena = name))
+                Children.map(children, (x) => cloneElement(x, {arena:name}))
             }
         </>
     )
