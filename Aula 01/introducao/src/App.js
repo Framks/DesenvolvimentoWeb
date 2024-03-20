@@ -4,6 +4,7 @@ import { Arena, Enemy, Hero, World } from "./components/atividade01/questao03/03
 import Pokemon from "./components/06Estados/Pokemon";
 import Efeito from "./components/10Efeito/Efeito";
 import ComponentePromessa from "./components/11Promessas/MinhaPromessa";
+import PromessaComAsync from "./components/11Promessas/MeuAsync";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
 		</h1>
 		<Efeito/>
 		<ComponentePromessa/>
+		<PromessaComAsync/>
 		<hr/>
     	<h1>Atividade 00 de desenvolvimento WEB</h1>
 		<Pokemon/>

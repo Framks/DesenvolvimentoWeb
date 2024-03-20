@@ -15,29 +15,32 @@ const MinhaPromessa = new Promise(
     }
 )
 
-const ComponentePromessa = () => {
+const PromessaComAsync = () => {
 
     const [reusltado,setResultado] = useState("")
 
-    function apiGetPromessa() {
-        // se comunica com alguém 
-        return MinhaPromessa
+    async function apiGetPromessa() {
+        try{
+            const res = await MinhaPromessa
+            setResultado(res)
+        }catch(error){
+            setResultado(error)
+        }
     }
 
     useEffect(
         () => {
-            apiGetPromessa().then((valor)=>{setResultado(valor)}).catch((reject) => setResultado(reject)) // modo antigo de programar 
-
+            apiGetPromessa()
         },
         [] 
     )
 
     return(
         <>
-            <h3>Promessas</h3>
+            <h3>Promessas com async</h3>
             <h4>Resultado: {reusltado}</h4>
         </>
     )
 }
 
-export default ComponentePromessa;
+export default PromessaComAsync;
