@@ -1,11 +1,22 @@
 import Pai from "./components/atividade01/questao01/01Pai";
 import {Pc,PlacaDeVideo, Memoria, PlacaMae} from "./components/atividade01/questao02/02MeuPc";
 import { Arena, Enemy, Hero, World } from "./components/atividade01/questao03/03Batalha";
+import Pokemon from "./components/06Estados/Pokemon";
+import Efeito from "./components/10Efeito/Efeito";
+import ComponentePromessa from "./components/11Promessas/MinhaPromessa";
 function App() {
   return (
     <div className="App">
+		<h1>
+			Aula 10
+		</h1>
+		<Efeito/>
+		<ComponentePromessa/>
+		<hr/>
     	<h1>Atividade 00 de desenvolvimento WEB</h1>
+		<Pokemon/>
     	<hr/>
+		<h1>atividade 01 de desenvolvimento WEB</h1>
     	<Pai/>
 		<hr/>
     	<Pc>
