@@ -1,0 +1,28 @@
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+h1,p,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow:;  atalho para flex-direction e flex-wrap*/
+}
+
+article{
+    background-color: aqua;
+    padding: 1%;
+    margin: 15px;
+    /*flex: 20%;*/
+    flex: 2 15%;
+}

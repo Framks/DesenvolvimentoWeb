@@ -1,0 +1,19 @@
+div#container{
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid firebrick;
+    
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; /*eixo inverso ao justify content */
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    margin-right: 2x;
+    margin-left: 2px;
+}
