@@ -1,3 +1,4 @@
+
 const Planeta = ({nome, tipo, ordem, galaxia}) => {
     return (
         <div>

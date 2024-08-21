@@ -1,0 +1,106 @@
+{
+  "professores": [
+    {
+      "nome": "Fulano de Tal",
+      "curso": "ES",
+      "titulacao": "MEST",
+      "ai": {
+        "es": true,
+        "lc": false,
+        "md": false,
+        "al": false
+      },
+      "universidade": {
+        "ufc": true,
+        "ifce": false
+      },
+      "id": "1"
+    },
+    {
+      "nome": "Fulano de Tal",
+      "curso": "ES",
+      "titulacao": "MEST",
+      "ai": {
+        "es": true,
+        "lc": false,
+        "md": false,
+        "al": false
+      },
+      "universidade": {
+        "ufc": true,
+        "ifce": false
+      },
+      "id": "2"
+    },
+    {
+      "nome": "Francisco junior",
+      "curso": "Sistemas de informação",
+      "titulacao": "MESTRADO",
+      "id": "3",
+      "ai": {
+        "es": true,
+        "lc": false,
+        "md": false,
+        "al": false
+      },
+      "universidade": {
+        "ufc": true,
+        "ifce": false
+      }
+    },
+    {
+      "id": "4",
+      "nome": "Fulano de Tal",
+      "curso": "ES",
+      "ai": {
+        "es": true,
+        "lc": false,
+        "md": false,
+        "al": false
+      },
+      "universidade": {
+        "ufc": true,
+        "ifce": false
+      },
+      "titulacao": "MEST"
+    }
+  ],
+  "alunos": [
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "8571"
+    },
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "04d5"
+    },
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "e87d"
+    },
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "ec56"
+    },
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "a8e1"
+    },
+    {
+      "nome": "joão",
+      "curso": "SI",
+      "ira": "4",
+      "id": "ab10"
+    }
+  ]
+}
